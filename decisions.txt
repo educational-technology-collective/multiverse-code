@@ -1,0 +1,36 @@
+# Features / Target
+## Demographic
+"STDNT_ETHNIC_GRP_CD" (Race/Ethnicity, 1 = White, 2 = Black, 3 = Hispanic, 4 = Asian, 5 = Native Amr, 6 = Not Indic, 7 = Hawaiian, 0 = 2 or More")
+
+"STDNT_SEX_CD" (SEX, 1 = Female, 2 = Male, 3 = Unknown)
+
+"STDNT_INTL_IND" (If international, 1 = Yes, 0 = No)
+
+"STDNT_NTV_ENG_SPKR_IND" (If Native ENG Speaker, 1 = Yes, 0 = No)
+
+"FIRST_US_PRMNNT_RES_PSTL_5_CD" (Zipcode)
+
+"PRNT_MAX_ED_LVL_DES" (Maximum Edu of Parent, Master/Bachelor/High School etc.)
+
+"STDNT_BIRTH_MO" (Birth Month)
+"STDNT_BIRTH_YR" (Birth Year)
+"==> Deduce the AGE"
+
+"EST_GROSS_FAM_INC_DES" (Estimated Gross Family Income, string)
+
+## Academic
+"HS_GPA" (High School GPA, 4.0, 3.6, ...)
+"HS_CALC_IND" (Completed high school calc, 1 = yes, 0 = No)
+"HS_CHEM_LAB_IND" ( Completed high school chem class with lab, 1 = Yes, 0 = No)
+"CUM_GPA" (Cumulative GPA at the end of the term)
+"UNITS_TRNSFR_NBR" (Transfer Accepted Units at that term)
+"MAX_ACT_COMP_SCR" (ACT Composite Score, 1-36, null)
+"MAX_SATI_TOTAL_CALC_SCR" (SAT total score, old SAT)
+"MAX_SATI_TOTAL_MSS_ERWS_SCR" (SAT total score, new SAT)
+"FIRST_UG_ENTRY_TYP_DES" (First entry type of a degree seeking undegrad student, "First-Year", "First-Year Assumed", nan, "Transfer", "Transfer Assumed")
+"FIRST_TERM_ATTND_CD" (first term attend)
+"PGM_1_MAJOR_1_CIP_DES" (First major)
+
+# Target
+"UM_DGR_1_CMPLTN_TERM_CD" (First UM degree completed or expected to complte term)
+"LAST_TERM_ATTND_CD" (Last term attended)

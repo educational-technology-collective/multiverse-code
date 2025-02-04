@@ -1,0 +1,16 @@
+Include Transfer [True / False]
+Include Covid [True / False]
+Handle Nan [ SimpleImputer / Drop]
+Train Size [ 0.7 / 0.8]
+Include Sex [ True / False]
+Include Race [ True / False]
+Encoder [ OneHotEncoder / Ordinal]
+Scaler [ Standard / None]
+Sampler [SMOTE / NearMiss / None]
+CLASSIFIER [ Randomforest / GradientBoosting / LogisticRegression]
+
+n_estimators [ 50, 100, 150]
+learning_rate [0.01, 0.1, 1]
+C [0.01, 0.1, 1]
+
+2^8 * 3 * 9 = 6912 Combinations
